@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.tenmillion.account.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/investment_current_earnings_record_android"
+                />
+            <TextView
+                android:id="@+id/tv_total_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:text="资产总额"/>
+            <TextView
+                android:id="@+id/tv_total"
+                android:layout_below="@+id/tv_total_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="￥20.00"/>
+        </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="14dp"
+        android:lineSpacingMultiplier="1.5"
+        android:text="    用过随手记、挖财、懒得记先说随手记吧。记账较为全面，功能也够强大，转账记账功能强大，还不错用，可惜就是界面有点丑，分类过多，手快一番就错过了，而且，较为适合的人群是有理财需求及报销需求的人，另外就是理财方面的功能占据更多。相对来说，反而不太适合像我这样只是单纯记账还是消费者的学生挖财，功能可媲美随手记，还加入了银行卡、支付宝等账户的消费统计，但较随手记更偏向于理财产品社区，理财投资意识颇重，反而影响用户对挖财的理解和记账本身的感官。此外，挖财记账也需要选分类，记账操作上不够简练，另外，也存在投资选择隐患，毕竟，挖财提供的也只是一个投资理财渠道，并不对理财结果负责。懒得记，相较比随手记和挖财，这只是一款面市不足一年的记账app，显然在功能上是不够丰富的，但是相对比之下，我反而更倾向于懒得记。原因主要有三点：1、记账操作简单，快速，不用手动选择输入等的记账；2、票据识别记账的同时，也能存储小票，做消费凭证；3、会员卡管理，减少忘记带实体会员卡出门的烦恼。当然，最重要的还是个人觉得，记账就该是记账，如果一大堆功能的提出反而掩盖了简单方便完善记账的用户体验本身，那就脱离其记账服务意义了
+
+作者：吖蓝xian
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"/>
+    </LinearLayout>
+</ScrollView>
