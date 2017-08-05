@@ -20,4 +20,6 @@
     <color name="dividing_line">#e0e0e0</color>
     <color name="tab_selected">#f1ede1</color>
     <color name="white">#ffffff</color>
+    <color name="yellow">#FFFCD201</color>
+    <color name="red_yellow">#FFFC7F01</color>
 </resources>
